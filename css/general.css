@@ -1,0 +1,52 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- 07 WHITESPACE  
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #02dd1b;
+  padding: 2.4rem 8rem;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #35e449;
+}
