@@ -58,27 +58,15 @@ html {
   margin-bottom: 6.4rem;
 }
 
-.btn {
-  color: #fff;
-  background-color: #02dd1b;
-  text-transform: uppercase;
-  border: none;
-  text-decoration: none;
-}
-
 .btn:link,
 .btn:visited {
   color: #fff;
+  border: none;
   text-decoration: none;
-  text-transform: uppercase;
-  background-color: #02dd1b;
   transition: all 0.3s;
 }
 
-.btn:hover,
-.btn:active {
-  background-color: #35e449;
-}
+
 
 .center-v {
   text-align: center;
