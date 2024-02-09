@@ -30,7 +30,7 @@ html {
 /**************************/
 
 .container {
-  max-width: 120rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -50,10 +50,12 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary,
+
 .heading-secondary {
-  font-weight: 600;
-  text-transform: uppercase;
+  color: #000;
+  font-size: 5.2rem;
+  font-weight: 400;
+  margin-bottom: 6.4rem;
 }
 
 .btn {
@@ -61,21 +63,28 @@ html {
   background-color: #02dd1b;
   text-transform: uppercase;
   border: none;
+  text-decoration: none;
 }
 
 .btn:link,
 .btn:visited {
   color: #fff;
-  font-size: 1.8rem;
-  font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #02dd1b;
-  padding: 2.4rem 8rem;
   transition: all 0.3s;
 }
 
 .btn:hover,
 .btn:active {
   background-color: #35e449;
+}
+
+.center-v {
+  text-align: center;
+}
+
+/* ! TRICK */
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
 }
