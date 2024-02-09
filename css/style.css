@@ -270,4 +270,10 @@
   text-transform: none;
   padding: 1.2rem 4.8rem;
   background-color: #272727;
+  transition: all 0.3s;
+}
+
+.btn-more:hover,
+.btn-more:active {
+  background-color: #3d3d3d;
 }
