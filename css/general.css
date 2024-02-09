@@ -53,10 +53,24 @@ html {
 
 .heading-secondary {
   color: #000;
-  font-size: 5.2rem;
+  font-size: 6.2rem;
   font-weight: 400;
   margin-bottom: 6.4rem;
 }
+
+.btn {
+  color: #fff;
+  background-color: #02dd1b;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #35e449;
+}
+
 
 .btn:link,
 .btn:visited {
