@@ -34,6 +34,35 @@ html {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #fff;
+  background-color: #02dd1b;
+  text-transform: uppercase;
+  border: none;
+}
+
 .btn:link,
 .btn:visited {
   color: #fff;

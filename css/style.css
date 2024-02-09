@@ -12,7 +12,7 @@
 /* SECTION HERO */
 /**************************/
 .hero {
-  height: 9.6rem;
+  position: relative;
 }
 
 .hero-img {
@@ -78,7 +78,7 @@
   background-color: #02dd1b;
 }
 
-/*? PAGE ENRTY */
+/*? PAGE ENTRY */
 
 .page-entry {
   margin-top: 12.8rem;
@@ -88,7 +88,7 @@
 
 /* heading-box  */
 .heading-box {
-  position: relative;
+  height: auto;
   padding: 0 3.2rem;
 }
 
@@ -96,7 +96,6 @@
   color: #fff;
   letter-spacing: -0.75px;
   font-size: 8rem;
-  text-transform: uppercase;
   line-height: 1.05;
   margin-bottom: 9.6rem;
 }
@@ -109,7 +108,7 @@
 
 .pagination {
   font-size: 1.6rem;
-  padding: 0 3.2rem;
+  padding-right: 3.2rem;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -167,4 +166,52 @@
   padding: 1.6rem;
   border-radius: 50%;
   transition: all 0.3s;
+}
+
+/**************************/
+/* SECTION FIND */
+/**************************/
+
+.section-find {
+  padding: 4.8rem 9.6rem 9.6rem 9.6rem;
+  background-color: #f7f7f7;
+}
+
+.find-car {
+  background-color: #fff;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 3.2rem 6.4rem;
+}
+
+.heading-find {
+  color: #02dd1b;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.75px;
+  margin-bottom: 1.2rem;
+}
+
+.find-form {
+  column-gap: 3.2rem;
+}
+
+.find-form input,
+.find-form select {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.2rem;
+  width: 100%;
+  border: 1px solid #777;
+}
+
+.btn-search {
+  font-size: 2rem;
+  width: 50%;
+  text-transform: capitalize;
+  padding: 1.2rem 2.4rem;
+  margin-top: 1.2rem;
+  grid-column: -2/-1;
+  justify-self: right;
 }
