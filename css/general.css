@@ -80,7 +80,9 @@ html {
   transition: all 0.3s;
 }
 
-
+input::placeholder {
+  font-family: inherit;
+}
 
 .center-v {
   text-align: center;
