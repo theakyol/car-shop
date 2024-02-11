@@ -56,11 +56,29 @@ html {
   font-size: 6.2rem;
   font-weight: 400;
   margin-bottom: 6.4rem;
-
+  background: #f7f7f7;
   position: relative;
+
 }
 
+.line {
+  display: grid;
+  column-gap: 1.2rem;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
 
+.line::after {
+  content: "";
+  background-color: #02dd1b;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.line-w::after {
+  background-color: #fff;
+}
 
 .btn {
   color: #fff;

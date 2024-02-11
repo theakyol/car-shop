@@ -346,6 +346,7 @@
 .section-featured {
   padding: 9.6rem 0;
   position: relative;
+  background-color: #f7f7f7;
 }
 
 .featured {
@@ -451,7 +452,7 @@
 
 .list-g {
   color: #000;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 .item-g:first-child {
@@ -506,7 +507,8 @@
 /**************************/
 
 .section-contact {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 19.2rem 0;
+  background-color: #f7f7f7;
 }
 
 .contact {
@@ -528,6 +530,7 @@
 
 
 .contact-form input {
+  background-color: inherit;
   color: #000;
   font-family: inherit;
   font-weight: 500;
@@ -576,7 +579,7 @@
 /**************************/
 
 .footer {
-  padding: 12.8rem 0 0 0;
+  padding: 0;
 }
 
 .footer-content {
