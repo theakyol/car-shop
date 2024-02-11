@@ -89,6 +89,10 @@ input::placeholder {
 }
 
 /* ! TRICK */
+.footer-padding {
+  padding: 0 1.2rem 0 1.2rem;
+}
+
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
