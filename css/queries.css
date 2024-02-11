@@ -1,0 +1,29 @@
+/**************************/
+/* BELLOW 81 * 16= 1296px (Smaller desktops) */
+/**************************/
+@media(max-width:81em) {
+
+  .page-entry {
+    margin-top: 8rem;
+  }
+
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 100rem 1.4rem 1.4rem 1.4rem;
+  }
+
+
+  .login-part {
+    margin-left: 3.2rem;
+  }
+
+  .pagination {
+    gap: 3.2rem;
+  }
+}
