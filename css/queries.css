@@ -27,3 +27,26 @@
     gap: 3.2rem;
   }
 }
+
+/**************************/
+/* BELLOW 72 * 16= 1152px (LandspaceTablets) */
+/**************************/
+@media(max-width:72em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .login-part {
+    margin-left: 2.4rem;
+  }
+}
+
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- 07 WHITESPACE  
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
