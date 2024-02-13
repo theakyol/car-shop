@@ -108,12 +108,20 @@
 
   .btn-mobile-nav {
     display: block;
-    z-index: inherit;
     position: absolute;
     top: 25%;
     right: 3%;
-
+    z-index: 99999;
   }
+
+  .btn-mobile-nav-close {
+    display: none;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    z-index: 99999;
+  }
+
 
   .navigation {
     z-index: 999;
@@ -126,7 +134,7 @@
     height: 100vh;
     top: 0;
     right: 0;
-    z-index: 2;
+    z-index: inherit;
   }
 
   .nav-list {
@@ -148,11 +156,22 @@
     transition: all 0.3s;
   }
 
-  #checkbox-menu:checked~.main-nav {
-    display: block;
 
+  #checkbox-menu:checked~.main-nav,
+  #checkbox-menu:checked~.btn-mobile-nav-close {
+    display: block;
   }
+
+  #checkbox-menu:checked~.btn-mobile-nav {
+    display: none;
+  }
+
+
 }
+
+
+
+
 
 /**************************/
 /* BELLOW 53 * 16= 848px () */
