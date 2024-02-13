@@ -24,10 +24,9 @@
 
 .header {
   padding: 3.2rem 4.8rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo:link,
@@ -38,6 +37,9 @@
   text-transform: uppercase;
 }
 
+/* .main-nav {
+  position: relative;
+} */
 
 .nav-list {
   font-size: 1.8rem;
@@ -77,12 +79,16 @@
   background-color: #02dd1b;
 }
 
+
+#checkbox-menu {
+  display: none;
+}
+
 .btn-mobile-nav {
+  display: none;
   border: none;
   background: none;
   cursor: pointer;
-
-  display: none;
 }
 
 .icon-mobile-nav {
@@ -91,9 +97,6 @@
   color: #fff;
 }
 
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
-}
 
 /*? PAGE ENTRY */
 
@@ -121,7 +124,7 @@
   text-transform: uppercase;
   background-color: #02dd1b;
   padding: 2.4rem 8rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.4rem;
 }
 
 .heading-btn:hover,
@@ -162,6 +165,10 @@
 
 .number:hover,
 .number:active {
+  background-color: #02dd1b;
+}
+
+.number:focus {
   background-color: #02dd1b;
 }
 
