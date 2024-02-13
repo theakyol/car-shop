@@ -12,6 +12,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  -ms-scroll-behavior: smooth !important;
 }
 
 body {
@@ -19,9 +21,13 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #f7f7f7;
+
+  overflow-x: hidden;
 }
 
 html {
+  overflow-x: hidden;
   font-size: 62.5%;
 }
 
@@ -96,6 +102,7 @@ html {
 
 .btn:link,
 .btn:visited {
+  display: inline-block;
   color: #fff;
   border: none;
   text-decoration: none;

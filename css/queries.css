@@ -3,9 +3,11 @@
 /**************************/
 @media(max-width:81em) {
 
-  .page-entry {
-    margin-top: 8rem;
+  html {
+    font-size: 56.25%;
   }
+
+
 
   .heading-primary {
     font-size: 7.4rem;
@@ -26,6 +28,8 @@
   .pagination {
     gap: 3.2rem;
   }
+
+
 }
 
 /**************************/
@@ -33,11 +37,30 @@
 /**************************/
 @media(max-width:72em) {
   html {
-    font-size: 56.25%;
+    font-size: 50%;
   }
 
-  .login-part {
-    margin-left: 2.4rem;
+  .page-entry {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .featured-left:link,
+  .featured-left:visited {
+    left: -2%;
+  }
+
+  .featured-right:link,
+  .featured-right:visited {
+    right:
+      -7%;
+  }
+
+  .cars {
+    gap: 3.2rem;
+  }
+
+}
   }
 }
 

@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/queries.css">
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -22,8 +22,8 @@
           <!--?  NAVIGATION -->
           <header class="header">
             <a href="#" class="logo">Jomo</a>
-            <nav class="main-nav">
-              <div class="navigation">
+            <div class="navigation">
+              <nav class="main-nav">
                 <ul class="nav-list">
                   <li><a href="#" class="nav-link">Home</a></li>
                   <li><a href="#" class="nav-link">About</a></li>
@@ -37,27 +37,33 @@
                     <li><a href="#" class="nav-link">Login</a></li>
                   </div>
                 </ul>
-              </div>
-            </nav>
+              </nav>
+              <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+              </button>
+            </div>
           </header>
           <!--? HEADING AND PAGINATION-->
           <div class="page-entry container">
-            <div class="heading-box">
-              <h1 class="heading-primary">Welcome<br> to our <br> car showroom</h1>
-              <a href="#" class="btn heading-btn">Book&nbsp;now</a>
-            </div>
-            <div class="pagination-box">
-              <div class="pagination">
-                <a href="#" class="number">01</a>
-                <a href="#" class="number">02</a>
-                <a href="#" class="number">03</a>
-                <a href="#" class="number">04</a>
-                <a href="#" class="number">05</a>
-                <div class="arrows">
-                  <a href="#" class="pagination-arrow-left"><ion-icon name="chevron-back-outline"
-                      class="pagination-icon"></ion-icon></a>
-                  <a href="#" class="pagination-arrow-right"><ion-icon name="chevron-forward-outline"
-                      class="pagination-icon"></ion-icon></a>
+            <div class="page-box">
+              <div class="heading-box">
+                <h1 class="heading-primary">Welcome<br> to our <br> car <br>showroom</h1>
+                <a href="#" class="btn heading-btn">Book&nbsp;now</a>
+              </div>
+              <div class="pagination-box">
+                <div class="pagination">
+                  <a href="#" class="number">01</a>
+                  <a href="#" class="number">02</a>
+                  <a href="#" class="number">03</a>
+                  <a href="#" class="number">04</a>
+                  <a href="#" class="number">05</a>
+                  <div class="arrows">
+                    <a href="#" class="pagination-arrow-left"><ion-icon name="chevron-back-outline"
+                        class="pagination-icon"></ion-icon></a>
+                    <a href="#" class="pagination-arrow-right"><ion-icon name="chevron-forward-outline"
+                        class="pagination-icon"></ion-icon></a>
+                  </div>
                 </div>
               </div>
             </div>
