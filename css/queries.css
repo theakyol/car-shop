@@ -199,7 +199,30 @@
   }
 
   .cars {
-    row-gap: 6.4rem;
+    row-gap: 8rem;
+  }
+
+  .car {
+    padding: 0 9.6rem;
+  }
+
+  .car-img {
+
+    padding: 9.6rem 9.6rem 0 9.6rem;
+  }
+
+  .car-list {
+    justify-content: center;
+    gap: 8rem;
+  }
+
+  .featured-box {
+    padding: 0 9.6rem 0 9.6rem;
+  }
+
+  .featured-img {
+    width: 80%;
+    margin-bottom: 0.8rem;
   }
 
   .contact-box {
@@ -233,7 +256,7 @@
 /* BELLOW 39 * 16= 624px () */
 /**************************/
 
-@media(max-width:53em) {
+@media(max-width:40em) {
   .page-box {
     margin-top: 8rem;
   }
@@ -246,13 +269,36 @@
     margin-bottom: 6.4rem;
   }
 
+  .cars {
+    row-gap: 8rem;
+  }
+
+  .car {
+    padding: 0 3.2rem;
+  }
+
+  .car-img {
+    width: 100%;
+  }
+
+  .car-list {
+    gap: 0;
+    width: 85%;
+    justify-content: space-around;
+  }
+
+  .featured-box {
+    padding: 0 6.4rem 0 6.4rem;
+  }
+
   .footer-contact {
-    width: 95%;
+    width: 80%;
     padding: 1.2rem 2.4rem;
   }
 
   .footer-items {
-    gap: 1.2rem;
+    gap: 1.4rem;
+    font-size: 1.4rem;
   }
 
   .footer-link:link,
@@ -262,29 +308,92 @@
 }
 
 @media(max-width:27em) {
+  .icon-mobile-nav {
+    width: 4.6rem;
+    height: 4.6rem;
+
+  }
 
   .heading-tertiary {
-
     font-size: 5rem;
-
   }
 
   .pagination {
     padding: 0;
-    gap: 1.2rem;
+    gap: 0.8rem;
   }
 
   .page-box {
     margin-top: 6.4rem;
   }
 
-  .footer-contact {
+  .btn-search {
     width: 100%;
   }
 
-  .btn-search {
+  .our-cars {
+    padding: 9.6rem 3.2rem 6.4rem;
+  }
+
+  .cars {
+    row-gap: 6.4rem;
+  }
+
+  .car {
+    padding: 0;
+  }
+
+  .car-img {
+    width: 100%;
+    padding: 3.2rem 3.2rem 0 3.2rem;
+  }
+
+  .car-list {
+    gap: 3.2rem;
+    justify-content: center;
+  }
+
+  .car-item {
+    font-size: 2.4rem;
+  }
+
+  .featured-box {
+    padding: 0;
+  }
+
+  .socials {
+    gap: 1rem;
+  }
+
+  .social-item {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+    text-align: center;
+  }
+
+  .footer-padding {
     justify-self: center;
   }
+
+  .featured-img {
+    width: 80%;
+  }
+
+  .footer-contact {
+    width: 100%;
+    padding: 1.2rem 0.2rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.2rem;
+  }
+
 }
 
 /*
