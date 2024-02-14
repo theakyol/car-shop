@@ -147,7 +147,15 @@
     align-items: center;
     justify-content: center;
     gap: 3.2rem;
+  }
 
+  .nav-list .login-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+    margin: 0;
   }
 
   .nav-link:link,
@@ -308,10 +316,15 @@
 }
 
 @media(max-width:27em) {
+
+  .heading-primary {
+    font-size: 5.8rem;
+
+  }
+
   .icon-mobile-nav {
     width: 4.6rem;
     height: 4.6rem;
-
   }
 
   .heading-tertiary {
@@ -385,13 +398,21 @@
   }
 
   .footer-contact {
-    width: 100%;
+    width: 85%;
     padding: 1.2rem 0.2rem;
+  }
+
+  .footer-list {
+    justify-content: center;
+  }
+
+  .socials {
+    display: none;
   }
 
   .footer-link:link,
   .footer-link:visited {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
 }
