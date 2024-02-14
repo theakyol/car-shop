@@ -375,12 +375,12 @@
   }
 
   .socials {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .social-item {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 3rem;
+    height: 3rem;
   }
 
   .footer-grid {
@@ -402,17 +402,18 @@
     padding: 1.2rem 0.2rem;
   }
 
+  .footer-items {
+    gap: 0;
+  }
+
   .footer-list {
     justify-content: center;
   }
 
-  .socials {
-    display: none;
-  }
-
   .footer-link:link,
   .footer-link:visited {
-    font-size: 1.4rem;
+    font-size: 0;
+    gap: 2rem;
   }
 
 }
