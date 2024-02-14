@@ -332,7 +332,7 @@
 
 .section-showroom {
   padding: 9.6rem 0;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/showroom-bg.png);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/showroom-bg.webp);
   background-size: cover;
 }
 
