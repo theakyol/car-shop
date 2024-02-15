@@ -177,6 +177,8 @@
 }
 
 .number:focus {
+  padding: 1.2rem;
+  border-radius: 50%;
   background-color: #02dd1b;
 }
 
